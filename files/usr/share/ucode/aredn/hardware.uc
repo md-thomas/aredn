@@ -832,6 +832,8 @@ export function getEthernetPorts()
         case "mikrotik,hap-ac2":
         case "mikrotik,hap-ac3":
             return default5PortLayout;
+        case "glinet,gl-a1300":
+            return default3PortLayout;
         case "glinet,gl-b1300":
             return default3PortLayout;
         case "openwrt,one":
